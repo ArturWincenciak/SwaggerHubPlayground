@@ -1,9 +1,9 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "This is a simple API to getting start - will be a conflict now?",
+    "description" : "This is a simple and public API",
     "version" : "1.0.0",
-    "title" : "Simple Inventory API - you can see it in new commit in GitHub",
+    "title" : "Simple Inventory API",
     "contact" : {
       "email" : "you@your-company.com"
     },
@@ -129,29 +129,9 @@
           "format" : "url",
           "example" : "https://www.acme-corp.com"
         },
-        "address" : {
-          "$ref" : "#/definitions/Address"
-        },
         "phone" : {
           "type" : "string",
           "example" : "408-867-5309"
-        }
-      }
-    },
-    "Address" : {
-      "required" : [ "city", "street", "flat" ],
-      "properties" : {
-        "city" : {
-          "type" : "string",
-          "example" : "Cracow"
-        },
-        "street" : {
-          "type" : "string",
-          "example" : "Błonia"
-        },
-        "flat" : {
-          "type" : "string",
-          "example" : "11D/5"
         }
       }
     }

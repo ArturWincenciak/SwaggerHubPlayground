@@ -122,8 +122,12 @@
       "properties" : {
         "name" : {
           "type" : "string",
-          "example" : "https://www.acme-corp.com",
-          "format" : "url"
+          "example" : "ACME Corporation"
+        },
+        "url" : {
+          "type" : "string",
+          "format" : "url",
+          "example" : "https://www.acme-corp.com"
         },
         "phone" : {
           "type" : "string",

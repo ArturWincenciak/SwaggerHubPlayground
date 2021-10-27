@@ -1,7 +1,7 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "This is a simple API to getting start",
+    "description" : "This is a simple API to getting start - test if you can see it in SwaggerHub after commit it to GitHub",
     "version" : "1.0.0",
     "title" : "Simple Inventory API - you can see it in new commit in GitHub",
     "contact" : {

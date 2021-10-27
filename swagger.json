@@ -122,12 +122,8 @@
       "properties" : {
         "name" : {
           "type" : "string",
-          "example" : "ACME Corporation"
-        },
-        "homePage" : {
-          "type" : "string",
-          "format" : "url",
-          "example" : "https://www.acme-corp.com"
+          "example" : "https://www.acme-corp.com",
+          "format" : "url"
         },
         "phone" : {
           "type" : "string",
